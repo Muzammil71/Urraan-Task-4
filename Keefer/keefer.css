@@ -4,40 +4,63 @@ body {
     padding: 0px;
     margin: 0px;
 }
-.main-herader{
+.main-header{
     display: flex;
     justify-content: space-between;
 }
 .Call {
-    /* margin-left: 300px; */
-    justify-content: center;
-    align-items: center;
-     text-align: center;
+    text-align: center;
     font-family: verdana;
     margin-right: 30px;
-}
-.underline{
-    height: 3px;
-    background-color: black;
-    
-    
+    padding: 10px;
 }
 .P1 {
     color: brown;
     font-weight: bold;
-    font-size: 21px;
-    margin-bottom: 1px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+.underline{
+    height: 3px;
+    width: 315px;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .P2 {
     color: black;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: bold;
-    /* letter-spacing: 3px; */
-    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 0.5px;
+    letter-spacing: 2px;
 }
 .P3  {
-    font-size: 15px;
-    letter-spacing: 1px;
-    font-weight: bold;
-    margin: 23px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+}
+li {
+    float: right;
+    text-align: center;
+}
+li a {
+    color: white;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: grey;
 }
