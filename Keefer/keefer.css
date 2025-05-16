@@ -46,15 +46,18 @@ body {
 
 
 ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: brown;
+    height: 30px;
 }
 li {
     float: right;
-    text-align: center;
 }
 li a {
     color: white;
@@ -63,4 +66,49 @@ li a {
 }
 li a:hover:not(.active) {
     background-color: grey;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.Ques {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+    background-color: brown;
+    font-size: 36px;
+    font-weight: bold;
+}
+.Have {
+    position: absolute;
+    top: 16px;
+    left: 250px;
+    color: black;
+    font-size: 20px;
+}
+.Abou {
+    position: absolute;
+    top: 40px;
+    left: 250px;
+    color: black;
+    font-size: 20px;
+}
+.Que {
+    position: absolute;
+    top: 2px;
+    left: 315px;
+    color: blue;
+    font-size: 40px;
 }
