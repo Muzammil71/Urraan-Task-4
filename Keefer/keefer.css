@@ -1,0 +1,43 @@
+body {
+    border-left: 20px solid grey;
+    border-right: 20px solid grey;
+    padding: 0px;
+    margin: 0px;
+}
+.main-herader{
+    display: flex;
+    justify-content: space-between;
+}
+.Call {
+    /* margin-left: 300px; */
+    justify-content: center;
+    align-items: center;
+     text-align: center;
+    font-family: verdana;
+    margin-right: 30px;
+}
+.underline{
+    height: 3px;
+    background-color: black;
+    
+    
+}
+.P1 {
+    color: brown;
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 1px;
+}
+.P2 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    /* letter-spacing: 3px; */
+    margin: 20px;
+}
+.P3  {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 23px;
+}
