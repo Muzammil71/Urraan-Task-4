@@ -201,64 +201,236 @@ textarea {
 .Charged {
     position: absolute;
     font-weight: 600;
+    font-size: 20px;
     left: 50px;
-    padding: 30px;
+    top: 650px;
 }
 .Dui {
     position: absolute;
     font-weight: 600;
+    font-size: 20px;
     color: brown;
-    left: 185px;
-    padding: 30px;
+    left: 220px;
+    top: 650px;
 }
 .Free {
     position: absolute;
-    font-weight: 500;
     color: brown;
-    left: 30px;
-    padding: 50px;
-    font-size: 12px;
+    left: 50px;
+    top: 685px;
+    font-size: 15px;
     font-family: Arial;
     font-weight: 600;
 }
 .Beings {
     position: absolute;
-    left: -0px;
-    padding: 80px;
-    font-size: 12px;
+    left: 50px;
+    top: 715px;
+    font-size: 16px;
     font-family: Arial;
 }
 .Clicks {
     position: absolute;
-    padding: 130px;
-    left: -50px;
-    font-size: 12px;
+    top: 780px;
+    left: 50px;
+    font-size: 16px;
     font-family: Arial;
 }
 .Paste {
     position: absolute;
-    padding: 80px;
-    left: 150px;
+    top: 720px;
+    left: 250px;
 }
 .Line {
     position: absolute;
-    padding: 200px;
-    left: -60px;
+    top: 870px;
+    left: 145px;
 }
 .button1 {
     position: absolute;
     justify-content: space-around;
-    left: -20px;
-    font-size: 12px;
+    left: 185px;
+    top: 871px;
+    font-size: 15px;
     text-align: center;
     font-family: Arial;
     background-color: brown;
     border: none;
     color: white;
-    margin: 202px;
     padding: 4px;
 }
-.Bullets {
-    margin-left: 5px;
+.Bullet {
+    margin-left: 3px;
+}
 
+
+.Line1 {
+    border-left: 0px solid;
+    height: 275px;
+    position: absolute;
+    left: 350px;
+    top: 640px;
+}
+.Law {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    top: 642px;
+    left: 370px;
+}
+.Blog {
+    position: absolute;
+    color: brown;
+    font-size: 20px;
+    font-weight: 600;
+    top: 642px;
+    left: 420px;
+}
+.Learn {
+    position: absolute;
+    top: 670px;
+    left: 370px;
+    font-size: 16px;
+    font-family: Arial;
+}
+.Line2 {
+    position: absolute;
+    top: 740px;
+    left: 365px;
+}
+.button2 {
+    position: absolute;
+    justify-content: space-around;
+    left: 405px;
+    top: 741px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial;
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 4px;
+}
+.Bullet1 {
+    margin-left: 3px;
+}
+.Laptop {
+    position: absolute;
+    top: 670px;
+    left: 580px;
+}
+.Line3 {
+    border-top: 0px solid;
+    width: 426px;
+    position: absolute;
+    left: 352px;
+    top: 785px;
+}
+.Case {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    top: 790px;
+    left: 370px;
+}
+.Results {
+    position: absolute;
+    color: brown;
+    font-size: 20px;
+    font-weight: 600;
+    top: 790px;
+    left: 430px;
+}
+.See {
+    position: absolute;
+    top: 820px;
+    left: 370px;
+    font-size: 16px;
+    font-family: Arial;
+}
+.Line4 {
+    position: absolute;
+    top: 890px;
+    left: 365px;
+}
+.button3 {
+    position: absolute;
+    justify-content: space-around;
+    left: 420px;
+    top: 891px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial;
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 4px;
+}
+.Bullet2 {
+    margin-left: 3px;
+}
+.Order {
+    position: absolute;
+    top: 800px;
+    left: 590px;
+}
+.Line5 {
+    border-left: 0px solid;
+    height: 275px;
+    position: absolute;
+    left: 780px;
+    top: 640px;
+}
+.Q1 {
+    position: absolute;
+    left: 890px;
+    top: 675px;
+}
+.National {
+    position: absolute;
+    left: 1050px;
+    top: 668px;
+}
+.Certificates {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    top: 775px;
+    left: 875px;
+}
+.Credentials {
+    position: absolute;
+    font-size: 20px;
+    color: brown;
+    font-weight: 600;
+    top: 800px;
+    left: 875px;
+}
+.KeeferLaw {
+    position: absolute;
+    top: 830px;
+    left: 880px;
+    font-size: 16px;
+    font-family: Arial;
+}
+.Line6 {
+    position: absolute;
+    top: 900px;
+    left: 975px;
+}
+.button4 {
+    position: absolute;
+    justify-content: space-around;
+    top: 901px;
+    left: 1020px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial;
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 4px;
+}
+.Bullet3 {
+    margin-left: 3px;
 }
