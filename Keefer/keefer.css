@@ -202,252 +202,316 @@ textarea {
     padding-top: 6px;
 }
 
+.display1 {
+    display: flex;
+}
 .Charged {
-    position: relative;
-    top: -5px;
     font-weight: 600;
     font-size: 24px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 .Dui {
-    position: relative;
-    top: -56.5px;
-    margin-left: 244px;
     font-weight: 600;
     font-size: 24px;
     color: brown;
 }
 .Free {
-    position: relative;
-    top: -76px;
+    margin-left: 50px;
+    margin-top: -15px;
     color: brown;
-    margin-left: 40px;
     font-size: 18px;
     font-family: Arial;
     font-weight: 600;
 }
+.pic1 {
+    display: flex;
+}
 .Beings {
-    position: relative;
-    top: -80px;
-    margin-left: 40px;
+    margin-left: 50px;
+    margin-top: 0px;
     font-size: 17px;
     font-family: Arial;
 }
 .Clicks {
-    position: relative;
-    top: -80px;
-    margin-left: 40px;
+    margin-left: 50px;
     font-size: 17px;
     font-family: Arial;
 }
 .Paste {
-    position: relative;
-    top: -245px;
-    margin-left: 270px;
+    margin-left: 30px;
+    margin-top: -10px;
 }
-.Line {
-    position: relative;
-    border-left: 2px solid;
-    width: 200px;
-    margin-left: 153px;
-    top: -200px;
+.Line1 {
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 10px;
+    height: 1px;
+    width: 230px;
 }
 .button1 {
-    position: relative;
-    margin-left: 190px;
-    top: -210px;
-    font-size: 16px;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 4px 10px;
     font-family: Arial;
     background-color: brown;
     border: none;
     color: white;
 }
-.Bullet {
-    margin-left: 3px;
-}
-
-
-.Line1 {
+.Line2 {
     border-left: 0px solid;
-    height: 315px;
-    position: absolute;
-    left: 410px;
-    top: 605px;
+    margin-left: 25px;
 }
 
 .Law {
-    position: relative;
-    font-size: 24px;
+    margin-left: -60px;
     font-weight: 600;
-    top: -495px;
-    margin-left: 420px;
+    font-size: 24px;
 }
 .Blog {
-    position: relative;
     color: brown;
     font-size: 24px;
     font-weight: 600;
-    top: -547px;
-    margin-left: 483px;
+}
+.pic2 {
+    display: flex;
 }
 .Learn {
-    position: absolute;
-    top: 627px;
-    margin-left: 420px;
+    margin-left: -60px;
+    margin-top: -25px;
     font-size: 17px;
     font-family: Arial;
 }
 .Laptop {
-    position: relative;
-    top: -590px;
-    margin-left: 615px;
+    margin-left: 50px;
+    margin-top: -45px;
 }
-.Line2 {
-    position: relative;
-    width: 175px;
-    border-left: 2px solid;
-    top: -625px;
-    margin-left: 430px;
+
+.Line3 {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -65px;
+    height: 1px;
+    width: 200px;
 }
 .button2 {
     position: absolute;
-    justify-content: space-around;
-    margin-left: 475px;
-    top: 707px;
-    font-size: 15px;
-    text-align: center;
+    margin-top: -30px;
+    margin-left: -20px;
+    font-size: 14px;
+    padding: 4px 10px;
     font-family: Arial;
     background-color: brown;
     border: none;
     color: white;
-    padding: 4px;
 }
-.Bullet1 {
-    margin-left: 3px;
-}
-.Line3 {
-    border-top: 0px solid;
-    width: 453px;
+.Line4 {
+    margin-top: 30px;
+    margin-left: -98px;
     position: absolute;
-    margin-left: 390px;
-    top: 757px;
+    border-left: 0px solid;
+    width: 473px;
 }
 .Case {
-    position: relative;
-    font-size: 20px;
+    margin-left: -60px;
+    margin-top: 55px;
     font-weight: 600;
-    top: -570px;
-    margin-left: 420px;
+    font-size: 24px;
 }
 .Results {
-    position: relative;
     color: brown;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
-    top: -613px;
-    margin-left: 483px;
+}
+.pic3 {
+    display: flex;
 }
 .See {
-    position: absolute;
-    top: 800px;
-    margin-left: 420px;
+    margin-left: -60px;
+    margin-top: -15px;
     font-size: 17px;
     font-family: Arial;
 }
 .Order {
-    position: relative;
-    top: -665px;
-    margin-left: 640px;
-}
-.Line4 {
-    position: relative;
-    width: 190px;
-    border-left: 2px solid;
-    top: -695px;
-    margin-left: 415px;
+    margin-left: 15px;
+    margin-top: -55px; 
+} 
+.Line5 {
+    position: absolute;
+    margin-left: -65px;
+    margin-top: -15px;
+    height: 1px;
+    width: 230px;
 }
 .button3 {
-    position: absolute;
-    justify-content: space-around;
-    margin-left: 478px;
-    top: 878px;
-    font-size: 15px;
-    text-align: center;
+   position: absolute;
+    margin-left: -10px;
+    margin-top: -15px;
+    font-size: 14px;
+    padding: 4px 10px;
     font-family: Arial;
     background-color: brown;
     border: none;
     color: white;
-    padding: 4px;
-}
-.Bullet2 {
-    margin-left: 3px;
-}
-.Line5 {
-    border-left: 0px solid;
-    height: 315px;
-    position: absolute;
-    left: 865px;
-    top: 605px;
-}
-.Q1 {
-    position: relative;
-    margin-left: 870px;
-    top: -950px;
-}
-.National {
-    position: relative;
-    margin-left: 1025px;
-    top: -1075px;
-}
-.Certificates {
-    position: relative;
-    font-size: 24px;
-    font-weight: 600;
-    top: -1090px;
-    margin-left: 870px;
-}
-.Credentials {
-    position: relative;
-    font-size: 24px;
-    color: brown;
-    font-weight: 600;
-    top: -1118px;
-    margin-left: 870px;
-}
-.KeeferLaw {
-    position: relative;
-    top: -1130px;
-    margin-left: 870px;
-    font-size: 16px;
-    font-family: Arial;
 }
 .Line6 {
+    margin-top: 20px;
+    margin-left: 40px;
+    border-left: 0px solid;
+    height: 320px;
+}
+
+.Q1 {
+    margin-left: -60px;
+    margin-top: 45px;
+}
+.National {
+    margin-left: 20px;
+} 
+.Certificates {
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: -2px;
+    margin-left: -65px; 
+}
+.Credentials {
+    font-weight: 600;
+    color: brown;
+    font-size: 24px;
+    margin-left: -65px;
+    margin-top: -25px;
+}
+.KeeferLaw {
+    margin-left: -65px;
+    margin-top: -15px;
+    font-size: 17px;
+    font-family: Arial;
+}
+.Line7 {
     position: relative;
-    width: 185px;
-    border-left: 2px solid;
-    top: -1130px;
-    margin-left: 955px;
+    margin: -0px 0px 0px 60px;
+    height: 1px;
+    width: 220px;
+}
+.btn-4{
+    margin: -5px 0px 0px 100px;
 }
 .button4 {
-    position: relative;
-    justify-content: space-around;
-    top: -1140px;
-    margin-left: 990px;
-    font-size: 15px;
-    text-align: center;
-    font-family: Arial;
-    background-color: brown;
-    border: none;
-    color: white;
-    padding: 4px;
-}
-.Bullet3 {
-    margin-left: 3px;
+   position: relative;
+   margin:0px 0px 0px 0px;
+   font-size: 14px;
+   font-family: Arial;
+   background-color: brown;
+   border: none;
+   color: white;
+   padding: 4px 10px;
 }
 .ShadowLine {
     position: relative;
     justify-content: center;
     width: 1240px;
     height: 8px;
-    top: -1080px;
+    margin-top: 50px;
+}
+.Practice {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.Area {
+    color: brown;
+}
+.Tagss {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.Tag1 {
+    width: 10px;
+    height: 60px;
+    margin-left: 30px;
+}
+.Dl {
+    display: flex;
+}
+.Dwi {
+    background-color: gray;
+    font-weight: bold;
+    font-family: Arial;
+    height: 60px;
+    width: 200px;
+    margin: 0px 0px 0px 0px;
+}
+.Learnmore1 {
+    background-color: gray;
+    font-size: 14px;
+    border: none;
+    margin: 10px 0px 0px 80px;
+}
+.Tag2 {
+    width: 10px;
+    height: 60px;
+    margin-left: 30px;
+}
+.Rl {
+    display: flex;
+}
+.Reckless {
+    background-color: gray;
+    font-weight: bold;
+    font-family: Arial;
+    height: 60px;
+    width: 200px;
+    margin: 0px 0px 0px 0px;
+}
+.Learnmore2 {
+    background-color: gray;
+    font-size: 14px;
+    border: none;
+    margin: 20px 0px 0px 80px;
+}
+.Sl {
+    display: flex;
+}
+.Tag3 {
+    width: 10px;
+    height: 60px;
+    margin-left: 30px;
+}
+.Speeding {
+    background-color: gray;
+    font-weight: bold;
+    font-family: Arial;
+    height: 60px;
+    width: 200px;
+    margin: 0px 0px 0px 0px;
+}
+.Learnmore3 {
+    background-color: gray;
+    font-size: 14px;
+    border: none;
+    margin: 20px 0px 0px 80px;
+}
+.Tag4 {
+    width: 10px;
+    height: 60px;
+    margin-left: 30px;
+}
+.Tl {
+    display: flex;
+}
+.Traffic {
+    background-color: gray;
+    font-weight: bold;
+    font-family: Arial;
+    height: 60px;
+    width: 200px;
+    margin: 0px 0px 0px 0px;
+}
+.Learnmore4 {
+    background-color: gray;
+    font-size: 14px;
+    border: none;
+    margin: 20px 0px 0px 80px;
 }
