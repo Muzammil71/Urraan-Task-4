@@ -1,6 +1,7 @@
 body {
     border-left: 20px solid grey;
     border-right: 20px solid grey;
+    border-bottom: 15px solid rgb(71, 68, 68);
     padding: 0px;
     margin: 0px;
 }
@@ -410,9 +411,12 @@ textarea {
 .ShadowLine {
     position: relative;
     justify-content: center;
-    width: 1240px;
+    width: 100%;
     height: 8px;
     margin-top: 50px;
+}
+.PageTitle {
+    display: flex;
 }
 .Practice {
     font-size: 24px;
@@ -447,7 +451,7 @@ textarea {
     background-color: gray;
     font-size: 14px;
     border: none;
-    margin: 10px 0px 0px 80px;
+    margin: 15px 0px 0px 80px;
 }
 .Tag2 {
     width: 10px;
@@ -469,7 +473,7 @@ textarea {
     background-color: gray;
     font-size: 14px;
     border: none;
-    margin: 20px 0px 0px 80px;
+    margin: 15px 0px 0px 80px;
 }
 .Sl {
     display: flex;
@@ -491,7 +495,7 @@ textarea {
     background-color: gray;
     font-size: 14px;
     border: none;
-    margin: 20px 0px 0px 80px;
+    margin: 15px 0px 0px 80px;
 }
 .Tag4 {
     width: 10px;
@@ -507,11 +511,175 @@ textarea {
     font-family: Arial;
     height: 60px;
     width: 200px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
 }
 .Learnmore4 {
     background-color: gray;
     font-size: 14px;
     border: none;
-    margin: 20px 0px 0px 80px;
+    margin: 15px 0px 0px 80px;
+}
+.LearnAbout {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.More1 {
+    color: brown;
+}
+.MenuArea {
+    color: lightgray;
+    width: 10px;
+    font-size: 22px;
+    font-family: Arial;
+    margin: 50px 0px 0px 100px;
+}
+.Article-main{
+    padding: 0px 0px 0px 20px;
+}
+.Titlehere {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.Article-paragraph {
+    font-size: 16px;
+    font-family: Arial;
+    line-height: 1.9;
+    color: rgba(104, 103, 103, 0.874);
+}
+.Part1 {
+    padding: 10px;
+}
+.Client {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+.Testimonial {
+    color: brown;
+}
+.ReadWhat {
+    font-size: 16px;
+    font-family: Arial;
+    margin: 20px;
+    margin-top: -15px;
+}
+.Line8 {
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    margin-top: -10px;
+}
+.button5 {
+    position: absolute;
+    font-size: 12px;
+    font-family: Arial;
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 2px 6px;
+    margin-top: -10px;
+    margin-left: 60px;
+}
+.Part2 {
+   padding: 10px;
+}
+.Download {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+.Fre {
+    color: brown;
+}
+.Discover {
+    font-size: 16px;
+    font-family: Arial;
+    margin: 20px;
+    margin-top: -15px;
+}
+.Line9 {
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    margin-top: -10px;
+}
+.button6 {
+    position: absolute;
+    font-size: 12px;
+    font-family: Arial;
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 2px 6px;
+    margin-top: -10px;
+    margin-left: 60px;
+}
+.Part3 {
+    padding: 10px;
+}
+.Contact {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+.Our {
+    color: brown;
+}
+.Getyour {
+    font-size: 16px;
+    font-family: Arial;
+    margin: 20px;
+    margin-top: -15px;
+}
+.Line10 {
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    margin-top: -10px;
+}
+.button7 {
+    position: absolute;
+    font-size: 12px;
+    font-family: Arial;
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 2px 6px;
+    margin-top: -10px;
+    margin-left: 60px;
+}
+.img1 {
+    margin: 20px;
+    width: 180px;
+    height: 150px;
+}
+.img2 {
+    margin: 25px;
+    width: 160px;
+    height: 170px;
+}
+.Followus {
+    margin: 20px;
+}
+.follow {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+.us {
+    color: brown;
+}
+.Line11 {
+    height: 3px;
+    width: 180px;
+    position: absolute;
+    margin-top: -10px;
+}
+.icons {
+    margin-left: 27px;
+}
+.Footerimg {
+    margin-bottom: -5px;
 }
