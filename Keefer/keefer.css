@@ -4,6 +4,8 @@ body {
     border-bottom: 15px solid rgb(71, 68, 68);
     padding: 0px;
     margin: 0px;
+    /* width: 100%;
+    height: 100%; */
 }
 .main-header {
     display: flex;
@@ -78,74 +80,61 @@ li a:hover:not(.active) {
     justify-content: space-between;
     padding: 20px;
 }
+.Backimage {
+    background-image: url("/KeeferImages/form_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 580px;
+}
 .Ques {
-    position: absolute;
     color: white;
-    top: 194px;
     background-color: brown;
     font-size: 30px;
+    width: 160px;
+    padding: 4px 8px;
 }
 .Have {
-    position: absolute;
-    top: 205px;
-    margin-left: 200px;
     color: black;
     font-size: 18px;
+    margin: -25px 0px 0px 200px;
     font-family: Arial;
     letter-spacing: 2px;
 }
 .Que {
-    position: absolute;
-    top: 195px;
-    margin-left: 285px;
+    margin: -35px 0px 0px 275px;
     color: darkblue;
     font-size: 34px;
     font-family: Sans-serif;
     letter-spacing: 2px;
 }
 .Abou {
-    position: absolute;
-    top: 231px;
-    margin-left: 200px;
+    margin: 0px 0px 0px 200px;
     color: black;
     font-size: 18px;
     font-family: Arial;
     letter-spacing: 2px;
 }
 .Enter {
-    position: absolute;
-    top: 255px;
-    margin-left: 15px;
+    margin: 10px 30px 0px 30px;
     color: black;
-    font-size: 23px;
+    font-size: 20px;
     font-family: Arial;
     text-align: left;
 }
-.form_bg.jpg {
-    background-image: url("/KeeferImages/form_bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-}
 .Formm {
-    position: absolute;
-    top: 325px;
-    margin-left: 30px;
     color: black;
     font-family: Arial;
 }
 .Nam {
-    position: relative;
-    left: 10px;
+    margin: 5px 0px 0px 50px;
 }
 .Email {
-    position: relative;
-    left: 8px;
+    margin: 5px 0px 0px 48px;
 }
 .Phone {
-    position: relative;
-    left: 1px;
+    margin: 5px 0px 0px 41px;
 }
 input[type="text"] {
     width: 180px;
@@ -159,17 +148,14 @@ input[type="tel"] {
     
 }
 .Confident {
-    position: absolute;
-    top: 345px;
-    margin-left: 320px;
-    rotate: 8deg;
+    rotate: 14deg;
+    margin: -80px 0px 0px 320px;
 }
 textarea {
-    position: absolute;
-    top: 440px;
-    margin-left: 35px;
-    width: 39%;
+    margin: 35px 50px 0px 50px;
+    width: 83%;
     height: 70px;
+    color: black;
     box-sizing: border-box;
     border: solid black;
     background-color: white;
@@ -179,24 +165,18 @@ textarea {
     resize: none;
 }
 .Privacy {
-    position: absolute;
-    top: 530px;
-    margin-left: 25px;
+    margin: 5px 0px 0px 40px;
     color: grey;
     font-size: 20px;
 }
 .button {
-    position: absolute;
-    justify-content: space-around;
-    top: 520px;
-    margin-left: 248px;
     font-size: 20px;
     text-align: center;
     font-family: Arial;
     background-color: brown;
     border: none;
     color: white;
-    padding: 7px 25px;
+    padding: 8px 17px;
 }
 .Bullet {
     margin-left: 5px;
@@ -209,7 +189,7 @@ textarea {
 .Charged {
     font-weight: 600;
     font-size: 24px;
-    margin-left: 50px;
+    margin: 30px 0px 0px 45px;
 }
 .Dui {
     font-weight: 600;
@@ -217,8 +197,7 @@ textarea {
     color: brown;
 }
 .Free {
-    margin-left: 50px;
-    margin-top: -15px;
+    margin: 5px 0px 0px 45px;
     color: brown;
     font-size: 18px;
     font-family: Arial;
@@ -228,31 +207,26 @@ textarea {
     display: flex;
 }
 .Beings {
-    margin-left: 50px;
-    margin-top: 0px;
+    margin: 20px 0px 0px 45px;
     font-size: 17px;
     font-family: Arial;
 }
 .Clicks {
-    margin-left: 50px;
+    margin: 20px 0px 0px 45px;
     font-size: 17px;
     font-family: Arial;
 }
 .Paste {
-    margin-left: 30px;
-    margin-top: -10px;
+    margin: 10px 0px 0px 25px;
 }
 .Line1 {
-    position: absolute;
-    margin-left: 140px;
-    margin-top: 10px;
+    margin: 20px 0px 0px 130px;
     height: 1px;
-    width: 230px;
+    width: 220px;
 }
 .button1 {
     position: absolute;
-    margin-left: 210px;
-    margin-top: 10px;
+    margin: -5px 0px 0px 210px;
     font-size: 14px;
     padding: 4px 10px;
     font-family: Arial;
@@ -260,13 +234,14 @@ textarea {
     border: none;
     color: white;
 }
-.Line2 {
-    border-left: 0px solid;
-    margin-left: 25px;
+.Mid-sec {
+    border-left: 0.5px solid grey ;
+    margin: 25px 0px 0px 30px;
+    height: 300px;
+    border-right: 0.5px solid grey ;
 }
-
 .Law {
-    margin-left: -60px;
+    margin: 5px 0px 0px 30px;
     font-weight: 600;
     font-size: 24px;
 }
@@ -279,27 +254,23 @@ textarea {
     display: flex;
 }
 .Learn {
-    margin-left: -60px;
-    margin-top: -25px;
+    margin: 5px 0px 0px 30px;
     font-size: 17px;
     font-family: Arial;
 }
 .Laptop {
-    margin-left: 50px;
-    margin-top: -45px;
+    margin: -20px 0px 0px 60px;
 }
 
-.Line3 {
+.Line2 {
     position: absolute;
-    margin-top: -30px;
-    margin-left: -65px;
+    margin: -20px 0px 0px 30px;
     height: 1px;
     width: 200px;
 }
 .button2 {
     position: absolute;
-    margin-top: -30px;
-    margin-left: -20px;
+    margin: -20px 0px 0px 80px;
     font-size: 14px;
     padding: 4px 10px;
     font-family: Arial;
@@ -307,16 +278,13 @@ textarea {
     border: none;
     color: white;
 }
-.Line4 {
-    margin-top: 30px;
-    margin-left: -98px;
-    position: absolute;
-    border-left: 0px solid;
-    width: 473px;
+.section3 {
+    border-top: 0.5px solid black;
+    margin: 30px 50px 0px 0px;
+    width: 100%;
 }
 .Case {
-    margin-left: -60px;
-    margin-top: 55px;
+    margin: 15px 0px 0px 30px;
     font-weight: 600;
     font-size: 24px;
 }
@@ -329,26 +297,22 @@ textarea {
     display: flex;
 }
 .See {
-    margin-left: -60px;
-    margin-top: -15px;
+    margin: 10px 0px 0px 30px;
     font-size: 17px;
     font-family: Arial;
 }
 .Order {
-    margin-left: 15px;
-    margin-top: -55px; 
+    margin: -30px 0px 0px 15px;
 } 
-.Line5 {
+.Line3 {
     position: absolute;
-    margin-left: -65px;
-    margin-top: -15px;
+    margin: -20px 0px 0px 30px;
     height: 1px;
-    width: 230px;
+    width: 200px;
 }
 .button3 {
-   position: absolute;
-    margin-left: -10px;
-    margin-top: -15px;
+    position: absolute;
+    margin: -20px 0px 0px 80px;
     font-size: 14px;
     padding: 4px 10px;
     font-family: Arial;
@@ -356,60 +320,46 @@ textarea {
     border: none;
     color: white;
 }
-.Line6 {
-    margin-top: 20px;
-    margin-left: 40px;
-    border-left: 0px solid;
-    height: 320px;
-}
 
 .Q1 {
-    margin-left: -60px;
-    margin-top: 45px;
+    margin: 40px 0px 0px 45px;
 }
 .National {
-    margin-left: 20px;
+    margin: 40px 0px 0px 20px;
 } 
 .Certificates {
+    margin: 0px 0px 0px 25px;
     font-weight: 600;
     font-size: 24px;
-    margin-top: -2px;
-    margin-left: -65px; 
 }
 .Credentials {
+    margin: 0px 0px 0px 25px;
     font-weight: 600;
     color: brown;
     font-size: 24px;
-    margin-left: -65px;
-    margin-top: -25px;
 }
 .KeeferLaw {
-    margin-left: -65px;
-    margin-top: -15px;
+    margin: 10px 0px 0px 25px;
     font-size: 17px;
     font-family: Arial;
 }
-.Line7 {
-    position: relative;
-    margin: -0px 0px 0px 60px;
+.Line4 {
+    position: absolute;
+    margin: 15px 0px 0px 110px;
     height: 1px;
-    width: 220px;
-}
-.btn-4{
-    margin: -5px 0px 0px 100px;
+    width: 210px;
 }
 .button4 {
-   position: relative;
-   margin:0px 0px 0px 0px;
-   font-size: 14px;
-   font-family: Arial;
-   background-color: brown;
-   border: none;
-   color: white;
-   padding: 4px 10px;
+    position: absolute;
+    margin: 15px 0px 0px 150px;
+    font-size: 14px;
+    font-family: Arial;
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 4px 10px;
 }
 .ShadowLine {
-    position: relative;
     justify-content: center;
     width: 100%;
     height: 8px;
@@ -682,4 +632,152 @@ textarea {
 }
 .Footerimg {
     margin-bottom: -5px;
+}
+
+
+
+/* Add these at the end of existing CSS */
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .Call {
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .Container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Backimage {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+    }
+    
+    nav li {
+        float: none;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        border: none;
+    }
+    
+    .main-header img {
+        width: 100%;
+        height: auto;
+        max-width: 640px;
+    }
+    
+    .P2 {
+        font-size: 35px;
+    }
+    
+    .Formm input[type="text"],
+    .Formm input[type="tel"] {
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .Confident {
+        margin: 20px auto;
+        rotate: 0;
+        text-align: center;
+    }
+    
+    textarea {
+        margin: 20px 0;
+        width: 100%;
+    }
+    
+    .display1 {
+        flex-direction: column;
+    }
+    
+    .Mid-sec {
+        margin: 20px 0;
+        border: none;
+    }
+    
+    .PageTitle {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .P2 {
+        font-size: 28px;
+    }
+    
+    .Ques {
+        font-size: 24px;
+    }
+    
+    .Have, .Que, .Abou {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .button {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .Tagss {
+        width: 100%;
+    }
+    
+    .Dwi, .Reckless, .Speeding, .Traffic {
+        width: 100%;
+    }
+    
+    .Learnmore1, .Learnmore2, 
+    .Learnmore3, .Learnmore4 {
+        margin: 10px 0;
+    }
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add fluid typography */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* Make form elements responsive */
+input, textarea, button {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Improve grid layouts */
+.grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
